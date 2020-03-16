@@ -3,9 +3,7 @@
 ### Installation script for Sen2Agri 2 with MAJA 3.3
 ### This software will provision the minimal CentOS 7 machine with the required
 ### dependencies and then install the Sen2Agri System, it requires you to provide
-### the Sen2Agri installation package, the MAJA 3.3 installation package and the
-### GIPP files for the respective version of MAJA you are using (CAMS, TM, etc)
-### These files must be in an S3 bucket as specified in the paths below in the code
+### the Sen2Agri installation package, the MAJA 3.3 installation package
 
 yum -y install epel-release # Add extra repositories
 yum -y update  # Update repositories
